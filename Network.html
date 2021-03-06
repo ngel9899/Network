@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,63 +8,194 @@
 	<link rel="stylesheet" type="text/css" href="css\style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="left-block">
-			<img src="img\oasis-logo.png" class="oasis-logo">
-			<img src="img\group-dot.png" class="group-dot">
-			<img src="img\quotes.png" class="quotes">
-			<div class="left-block-text">
-				<p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
-				<div class="left-block-text-inline">
-					<p>Vincent Obi</p>
-					<img src="img\check-mark.png">
-				</div>
+	<header>
+		<a href=""><img src="img\logo.png"></a>
+		<nav>
+			<div class="header-nav-block">
+				<img src="img\rss.png">
+				<a href="" class="header-nav-link">feed</a>
 			</div>
-			<img src="img\angle.png" class="angle">
-			<img src="img\sphere.png" class="sphere">
+			<div class="header-nav-block">
+				<img src="img\users.png">
+				<a href="" class="header-nav-link">Network</a>
+			</div>
+			<div class="header-nav-block">
+				<img src="img\briefcase.png">
+				<a href="" class="header-nav-link">jobs</a>
+			</div>
+			<div class="header-nav-block">
+				<img src="img\message-square.png">
+				<a href="" class="header-nav-link">chat</a>
+			</div>
+			<div class="header-nav-block">
+				<img src="img\bell.png">
+				<a href="" class="header-nav-link">notices</a>
+			</div>
+		</nav>
+		<div class="header-search">
+			<img src="img\search.png">
+			<input type="search">
 		</div>
-
-		<div class="right-block">
-			<div class="right-block-header">
-				<div class="block-header-text-arrow">
-					<img src="img\arrow.png">
-					<a href="">Back</a>
-				</div>
-				<div class="block-header-text">
-					<p>STEP 01/03</p>
-					<p>Personal Info.</p>
-				</div>
-			</div>
-			<div class="right-block-container">
-				<h2>Register Individual Account!</h2>
-				<p>For the purpose of industry regulation, your details are required.</p>
-			</div>
-			<form class="right-block-form">
-				<div>
-					<label class="form-text">Your fullname*</label>
-					<input placeholder="Enter email address" type="text" name="name" class="input-text">
-				</div>
-				<div>
-					<label class="form-text">Email address*</label>
-					<input placeholder="Enter email address" type="email" name="email" class="input-text">
-				</div>
-				<div>
-					<label class="form-text">Create password*</label>
-					<input placeholder="Enter email address" type="password" name="password" class="input-text">
-					<p class="show">Show</p>
-				</div>
-				<div class="block-check">
-			      	<input type="checkbox" name="mychekbox" id="mychekbox" class="form-chekbox">
-			      	<label for="mychekbox">I agree to terms & conditions </label>
-			    </div>
-			</form>
-			<button class="button button-register">Register Account</button>
-			    <fieldset class="right-block-fieldset">
- 					 <legend class="fieldset-heading">or</legend>
- 					 <img src="img\google.png" class="google-logo">
- 					 <button class="button button-google">Register with Google</button>
- 				</fieldset>
+		<div class="header-block-avatar">
+			<img src="img\Photo-header.png">
+			<p>D. Kargaev <span class="grey">YOU</span></p>
+			<p>367 views today <span>+32</span><img src="img\arrow-up-right.png"></p>
 		</div>
+		<div class="dropdown">
+		  	<button class="dropbtn">other</button>
+		  	<div class="dropdown-content">
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			</div>
+		</div>
+	</header>
+<div class="container">
+	<div class="container-left-block">
+		<nav>
+			<a class="left-block-link">
+				<p><img src="img\link.png">Connections</p>
+				<p>1,038</p>
+			</a>
+			<a class="left-block-link">
+				<p><img src="img\disc.png">Invitations</p>
+				<p>2<img src="img\Rectangle.png"></p>
+			</a>
+			<a class="left-block-link">
+				<p><img src="img\archive.png">Teammates</p>
+			</a>
+			<a class="left-block-link">
+				<p><img src="img\users-little.png">groups</p>
+				<p>6</p>
+			</a>
+			<a class="left-block-link">
+				<p><img src="img\layers.png">pages</p>
+				<p>28</p>
+			</a>
+			<a class="left-block-link">
+				<p><img src="img\hash.png">hashtags</p>
+				<p>8</p>
+			</a>
+		</nav>
 	</div>
+
+	<div class="container-top-block">
+		<div>
+			<button>Received</button>
+			<button>sent</button>
+		</div>
+		<fieldset>
+			<legend>you have 2 new connections</legend>
+			<div class="top-block-element">
+				<div class="top-element-left">
+					<img src="img\Photo-top.png">
+					<p>Brandon Wilson</p>
+					<p>Senior UX designer</p>
+					<p>623 connections</p>
+				</div>
+				<div class="top-block-center">
+					<p>Hey, I saw your works. I like it! Can we do something together? Or maybe you have project for UX at the moment?</p>
+				</div>
+				<div class="top-block-right">
+					<button></button>
+					<button></button>
+				</div>
+			</div>
+			<div class="bot-block-element">
+				<div class="top-element-left">
+					<img src="img\Photo-top2.png">
+					<p>Theresa Steward</p>
+					<p>iOS developer</p>
+					<p>481 connections</p>
+				</div>
+				<div class="top-block-center">
+
+				</div>
+				<div class="top-block-right">
+					<button></button>
+					<button></button>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+	<div class="container-bot-block">
+		<fieldset>
+			<legend>recent connections</legend>
+			<div class="container-bot-block-couple">
+				<div class="bot-block-element">
+					<img src="img\Photo-left.png">
+					<p>Audrey Alexander</p>
+					<p>Team lead at Google</p>
+					<div class="bot-block-element-angle">
+						<p>Yesterday, 14:30</p>
+					</div>
+				</div>
+				<div class="bot-block-element">
+					<img src="img\Photo-left2.png">
+					<p>Darlene Black</p>
+					<p>HR-manager, 10 000 connections</p>
+					<div class="bot-block-element-angle">
+						<p>26 aug, monday</p>
+					</div>
+				</div>
+			</div>
+			<div class="container-bot-block-couple">
+				<div class="bot-block-element">
+					<img src="img\Photo-right.png">
+					<p>Kyle Fisher</p>
+					<p>Product designer at Commandor Corp</p>
+					<div class="bot-block-element-angle">
+						<p>Yesterday, 12:03</p>
+					</div>
+				</div>
+				<div class="bot-block-element">
+					<img src="img\Photo-right2.png">
+					<p>Eduardo Russell</p>
+					<p>Full stack developer at Yandex</p>
+					<div class="bot-block-element-angle">
+						<p>25 aug, sunday</p>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<footer>
+	<div class="footer-left">
+		<img src="img\LinkedIn.png">
+	</div>
+	<div class="footer-blocknav">
+		<p>Navigation</p>
+		<nav class="footer-blocknav-col1">
+			<a href="">Abount</a>
+			<a href="">Careers</a>
+			<a href="">Advertising</a>
+			<a href="">Small Business</a>
+		</nav>
+		<nav class="footer-blocknav-col2">
+			<a href="">Talent Solutions</a>
+			<a href="">Marketing Solutions</a>
+			<a href="">Sales Solutions</a>
+			<a href="">Safery Center</a>
+		</nav>
+		<nav class="footer-blocknav-col3">
+			<a href="">Community Guidelines</a>
+			<a href="">Privacy & Terms </a>
+			<a href="">Mobile App</a>
+		</nav>
+	</div>
+	<div class="footer-block-button">
+		<p>Fast access</p>
+		<button>Questions?<img src="img\help-circle.png"></button>
+		<button>Settings<img src="img\settings.png"></button>
+	</div>
+	<div class="footer-block-right">
+		<p>Language</p>
+		<select>
+			<option>English</option>
+			<option>Russia</option>
+		</select>
+	</div>
+</footer>
 </body>
 </html>
