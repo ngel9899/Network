@@ -5,3 +5,11 @@
     font-weight: 500;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'GothamPro-regular';
+    src: local('GothamPro'),
+        url('GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
