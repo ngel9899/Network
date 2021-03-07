@@ -8,38 +8,35 @@
 	<link rel="stylesheet" type="text/css" href="css\style.css">
 </head>
 <body>
-	<header>
-		<a href=""><img src="img\logo.png"></a>
-		<nav>
+	<header class="header-container">
+		<a href="" class="header-logo"><img src="img\logo.png"></a>
+		<nav class="header-nav">
 			<div class="header-nav-block">
-				<img src="img\rss.png">
-				<a href="" class="header-nav-link">feed</a>
+				<a href="" class="header-nav-link"><img src="img\rss.png">feed</a>
 			</div>
 			<div class="header-nav-block">
-				<img src="img\users.png">
-				<a href="" class="header-nav-link">Network</a>
+				<a href="" class="header-nav-link"><img src="img\users.png">Network</a>
 			</div>
 			<div class="header-nav-block">
-				<img src="img\briefcase.png">
-				<a href="" class="header-nav-link">jobs</a>
+				<a href="" class="header-nav-link"><img src="img\briefcase.png">jobs</a>
 			</div>
 			<div class="header-nav-block">
-				<img src="img\message-square.png">
-				<a href="" class="header-nav-link">chat</a>
+				<a href="" class="header-nav-link"><img src="img\message-square.png">chat</a>
 			</div>
 			<div class="header-nav-block">
-				<img src="img\bell.png">
-				<a href="" class="header-nav-link">notices</a>
+				<a href="" class="header-nav-link"><img src="img\bell.png">notices</a>
 			</div>
 		</nav>
 		<div class="header-search">
 			<img src="img\search.png">
-			<input type="search">
+			<input type="search" class="search" placeholder="Search">
 		</div>
 		<div class="header-block-avatar">
 			<img src="img\Photo-header.png">
-			<p>D. Kargaev <span class="grey">YOU</span></p>
-			<p>367 views today <span>+32</span><img src="img\arrow-up-right.png"></p>
+			<div class="header-block-avatar-text">
+				<p class="bold">D. Kargaev <span class="grey">YOU</span></p>
+				<p class="grizzle">367 views today <span class="green">+32</span><img src="img\arrow-up-right.png"></p>
+			</div>
 		</div>
 		<div class="dropdown">
 		  	<button class="dropbtn">other</button>
@@ -121,40 +118,36 @@
 	<div class="container-bot-block">
 		<fieldset>
 			<legend>recent connections</legend>
-			<div class="container-bot-block-couple">
-				<div class="bot-block-element">
-					<img src="img\Photo-left.png">
-					<p>Audrey Alexander</p>
-					<p>Team lead at Google</p>
-					<div class="bot-block-element-angle">
-						<p>Yesterday, 14:30</p>
-					</div>
-				</div>
-				<div class="bot-block-element">
-					<img src="img\Photo-left2.png">
-					<p>Darlene Black</p>
-					<p>HR-manager, 10 000 connections</p>
-					<div class="bot-block-element-angle">
-						<p>26 aug, monday</p>
-					</div>
+			<div class="bot-block-element">
+				<img src="img\Photo-left.png">
+				<p>Audrey Alexander</p>
+				<p>Team lead at Google</p>
+				<div class="bot-block-element-angle">
+					<p>Yesterday, 14:30</p>
 				</div>
 			</div>
-			<div class="container-bot-block-couple">
-				<div class="bot-block-element">
-					<img src="img\Photo-right.png">
-					<p>Kyle Fisher</p>
-					<p>Product designer at Commandor Corp</p>
-					<div class="bot-block-element-angle">
-						<p>Yesterday, 12:03</p>
-					</div>
+			<div class="bot-block-element">
+				<img src="img\Photo-left2.png">
+				<p>Darlene Black</p>
+				<p>HR-manager, 10 000 connections</p>
+				<div class="bot-block-element-angle">
+					<p>26 aug, monday</p>
 				</div>
-				<div class="bot-block-element">
-					<img src="img\Photo-right2.png">
-					<p>Eduardo Russell</p>
-					<p>Full stack developer at Yandex</p>
-					<div class="bot-block-element-angle">
-						<p>25 aug, sunday</p>
-					</div>
+			</div>
+			<div class="bot-block-element">
+				<img src="img\Photo-right.png">
+				<p>Kyle Fisher</p>
+				<p>Product designer at Commandor Corp</p>
+				<div class="bot-block-element-angle">
+					<p>Yesterday, 12:03</p>
+				</div>
+			</div>
+			<div class="bot-block-element">
+				<img src="img\Photo-right2.png">
+				<p>Eduardo Russell</p>
+				<p>Full stack developer at Yandex</p>
+				<div class="bot-block-element-angle">
+					<p>25 aug, sunday</p>
 				</div>
 			</div>
 		</fieldset>
